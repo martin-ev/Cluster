@@ -110,7 +110,7 @@ volumes using the command `kubectl get pvc`
 
 * List jobs in the lab: `runai list jobs`
 
-* Find out the status of your job `runai describe job jobname`
+* Find out the status of your job `runai describe job jobname`, or `watch -n 1 runai describe job jobname`.
 
 * Stop running jobs with `runai delete jobname`. Also if you want to submit another job with the same name, you need to
   delete the existing one which occupies the name.
